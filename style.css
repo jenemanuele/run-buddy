@@ -4,6 +4,7 @@
     box-sizing: border-box;
   }
 
+
 /* Hero Style Start */
 .hero {
     background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
@@ -81,6 +82,31 @@ body {
     display: inline;
   }
   
+    .intro h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #fce138;
+  }
+
+  .intro h2 {
+    /* add this alongside your other declarations */
+    display: inline-block;
+  }
+
+  .intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .intro p {
+    /* add this alongside your other declarations */
+    margin: 0 auto;
+  }
   header a {
     text-decoration: none;
     color: #fce138;
@@ -95,6 +121,7 @@ body {
     font-weight: lighter;
     font-size: 22px;
   }
+  
   
   footer {
     background: #fce138;
