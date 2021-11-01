@@ -6,9 +6,6 @@
 }
 .page-title {
     color: #fce138;
-    
-}
-.header h2 {
     display: inline-block; 
     border-bottom: 4px solid #fce138;
     padding: 0 80px 15px 80px;
@@ -36,7 +33,12 @@
     margin: 0 auto;
 
 }
-.secondary-content li {
+.secondary-content ul {
     color: #39a6b2;
     margin: 10px 0 10px 0;
+}
+
+.secondary-content li {
+    color: #39a6b2
+    margin 10 px 0;
 }
