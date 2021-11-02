@@ -39,17 +39,20 @@
      </header>
 
      <section class="hero">
-         <div class="hero-cta">
-             <h2>Start Building Habits</h2>
-             <p>
+        <div class="hero-cta">
+            <h2>
+                 Start Building Habits
+            </h2>
+                <p>
                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                  Molestiae ducimus cum recusandae, neque labore fugiat earum maiores facere autem minima nobis excepturi vitae ut a in ipsum!
                   Voluptatibus, excepturi veritatis.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus alias dicta pariatur nesciunt eligendi, 
                 blanditiis ducimus aliquid vel provident quia, voluptas possimus aliquam impedit ullam autem aut est tenetur ratione!
                 </p>
-         </div>
-         <div class="hero-form">
+        </div>
+         
+        <div class="hero-form">
              <h3>Get Started Today</h3>
              <p>Fill out this form and one of our trainers will schedule a consult!</p>
         <!--Add form element-->
@@ -88,44 +91,96 @@
     
     <!-- "what we do" section-->
         <section id="what-we-do" class="intro">
-            <h2 class="section-title primary-border">What We Do</h2>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat ipsam delectus excepturi eveniet ad vitae ab! Nobis sed omnis consectetur corporis eos. Repudiandae, exercitationem minima accusantium nulla tempora atque dolorem.
-              </p>
+            <div class="flex-row">
+                <h2 class="section-title primary-border">
+                    What We Do
+                </h2>
+                <div class="flex-row">                
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat ipsam delectus excepturi eveniet ad vitae ab! Nobis sed omnis consectetur corporis eos. Repudiandae, exercitationem minima accusantium nulla tempora atque dolorem.
+                    </p>
+                </div>
+            </div>   
         </section>
     
     <!-- "what you do" section -->
         <section id="what-you-do" class="steps">
-            <h2 class="section-title secondary-border">What You Do</h2>
-                <div>
-                    <!-- insert this img element -->
-                    <img src="./images/step-1.svg" alt="" />
-                    <h3>Step 1:  <span> Fill Out the Form Above.</span></h3>
-                    <p>You're already here, so why not?</p>
-              </div>
-            
-                <div>
-                    <img src="./images/step-2.svg" alt="" />
-                    <h3>Step 2: <span>Consult with One of Our Trainers.</span></h3>
-                    <p>Are you here to build muscle, lose weight, or just feel good?</p>
-              </div>
+            <div class="flex-row">
+                <h2 class="section-title secondary-border">
+                    What You Do
+                </h2>
+            </div>   
+            <div>
+             
+                <div class="step">
+                    <h3>Step 1.</h3>
+                    <div class="step-info">
+                      <div class="step-img">
+                        <img src="./images/step-1.svg" alt="" />
+                      </div>
+                      <div class="step-text">
+                        <h4>Fill Out The Form Above</h4>
+                        <p>You're already here, so why not?</p>
+                      </div>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <h3>Step 2:</h3>
+                    <div class="step-info">
+                      <div class="step-img">
+                        <img src="./images/step-2.svg" alt="" />
+                      </div>
+                      <div class="step-text">
+                        <h4>Consult with One of Our Trainers</h4>
+                        <p>Are you here to build muscle, lose weight, or just feel good?
+
+                        </p>
+                      </div>
+                    </div>
+                </div>
               
-              <div>
-                <img src="./images/step-3.svg" alt="" />
-                    <h3>Step 3: <span>Get Running.</span></h3>
-                    <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
-              </div>
+                <div class="step">
+                    <h3>Step 3:</h3>
+                    <div class="step-info">
+                      <div class="step-img">
+                        <img src="./images/step-3.svg" alt="" />
+                    </div>
+                    <div class="step-text">
+                        <h4>Get Running.</h4>
+                        <p>Hit the ground running (literally) once your trainer lays out your plan.
+
+                        </p>
+                    </div>
+                    
+                </div>
+              
+                <div class="step">
+                    <h3>Step 4:</h3>
+                    <div class="step-info">
+                      <div class="step-img">
+                        <img src="./images/step-4.svg" alt="" />
+                    </div>
+                    <div class="step-text">
+                        <h4>See Results.</h4>
+                        <p>Bi-weekly checkins with your trainer will keep you focused
+
+                        </p>
+                    </div>
+                    
+                </div>    
             
-              <div>
-                <img src="./images/step-4.svg" alt="" />
-                <h3>Step 4: <span>See Results.</span></h3>
-                <p>Bi-weekly checkins with your trainer will keep you focused</p>
-              </div>
+              
         </section>
 
     <!--"meet the trainers" section-->
         <section id="your-trainers" class="trainers">
-            <h2 class="section-title primary-border">Meet The Trainers</h2>
+            <div class="flex-row">
+                <h2 class="section-title primary-border">
+                    Meet The Trainers
+                </h2>
+            </div>  
+            
             <article class="trainer">
                 <img src="./images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
                 <div class="trainer-bio text-left">
@@ -165,10 +220,12 @@
     </section>
     
     <!-- "reach out" section-->
-        <section id="reach-out" class="contact">    
-            <h2 class="section-title secondary-border">
-                Reach Out
-            </h2>
+        <section id="reach-out" class="contact"> 
+            <div class="flex-row">
+                <h2 class="section-title secondary-border">
+                    Reach Out
+                </h2>
+            </div>
             
             <div class="contact-info">
                 <iframe 
@@ -211,6 +268,7 @@
 
     <!-- footer-->
     <footer>
+        <div class="flex-row"></div>
         <h2>❤️ Made with love by Run Buddy.</h2>
             <div>
             <a="./privacy-policy.html">Read Our Privacy Policy</a><br />
